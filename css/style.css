@@ -208,3 +208,15 @@ h3,h4{
     width: 250px;
     margin-top: 3rem;
 }
+.sixth-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(140, 223, 223);
+    padding:3rem 10rem;
+}
+.prova-gratuita{
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: white;
+    border: none;
+}
