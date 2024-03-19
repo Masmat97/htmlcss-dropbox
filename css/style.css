@@ -197,11 +197,29 @@ h3,h4{
    background-color: antiquewhite;
    padding: 0 2rem;
 }
-.logo{
-
-    width:130px;
-    height: 130px;
+.designit-logo{
+    background-image: url(../img/designit.svg);
+    background-color: greenyellow;
+    color: white;
+    width: 190px;
+    height: 190px;
 }
+.arizona-logo{
+    background-image: url(../img/arizona_state_university.svg);
+    background-color: rgb(95, 16, 32);
+    color: white;
+    width: 190px;
+    height: 190px;
+}
+.florida-logo{
+    background-image: url(../img/university_of_florida.svg);
+    background-color: blue;
+    color: white;
+    width: 190px;
+    height: 190px;
+}
+}
+
 .big-logo{
     width: 250px;
     margin-top: 3rem;
