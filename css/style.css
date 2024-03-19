@@ -102,8 +102,8 @@ h3,h4{
     padding-top: 2rem;
 }
 .row-contenitor{
-    display: flex;
-    justify-content:space-between;
+   
+    
     width: 800px;
     padding-top: 2rem;
     margin: auto;
@@ -116,5 +116,4 @@ h3,h4{
     padding: 0.5rem;
     color: white;
     margin: 1rem 0;
-    text-align: right;
 }
