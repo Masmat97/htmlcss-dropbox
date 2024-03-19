@@ -176,7 +176,7 @@ h3,h4{
     margin-left: 12rem;
     text-decoration: underline;
     color: rgb(24, 24, 221);
-    margin-bottom: 3rem;
+    
 }
 .squares{
     display: flex;
@@ -185,54 +185,110 @@ h3,h4{
 }
 .four-squares{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    width:380px;
-    height: 380px;
-    margin: 2rem 2rem;
+    width: 506px;
+    height: 506px;
+    margin-top: 2rem;
+    
   
 }
 .one-square{
-   width: 250px;
+   width: 506px;
    background-color: antiquewhite;
    padding: 0 2rem;
+   margin-top: 2rem;
 }
 .designit-logo{
     background-image: url(../img/designit.svg);
     background-color: greenyellow;
-    color: white;
-    width: 190px;
-    height: 190px;
+    background-size: 8rem;
+    background-repeat: no-repeat;
+    background-position:4rem 6rem ;
+    width: 253px;
+    height: 253px;
 }
 .arizona-logo{
     background-image: url(../img/arizona_state_university.svg);
+    background-size:7rem;
+    background-repeat: no-repeat;
+    background-position:4rem 5rem ;
     background-color: rgb(95, 16, 32);
-    color: white;
-    width: 190px;
-    height: 190px;
+    width: 253px;
+    height: 253px;
 }
 .florida-logo{
     background-image: url(../img/university_of_florida.svg);
     background-color: blue;
-    color: white;
-    width: 190px;
-    height: 190px;
+    background-size:8rem;
+    background-repeat: no-repeat;
+    background-position:4rem 7rem ;
+    width: 253px;
+    height: 253px;
 }
+.topps-logo{
+    background-image: url(../img/topps.svg);
+    background-color:red;
+    background-size:7rem;
+    background-repeat: no-repeat;
+    background-position:4rem 5rem ;
+    width: 253px;
+    height: 253px;
 }
+.world-bicycle{
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-color:red;
+    background-size:7rem;
+    background-repeat: no-repeat;
+    background-position:4rem 5rem ;
+    width: 253px;
+    height: 253px;
+}
+.hearst{
+    background-image: url(../img/hearst_corp.svg);
+    background-color:aqua;
+    background-size:7rem;
+    background-repeat: no-repeat;
+    background-position:4rem 6rem ;
+    width: 253px;
+    height: 253px;
+}
+.lonely-planet{
+    background-image: url(../img/lonely_planet.svg);
+    background-color:blue;
+    background-size:7rem;
+    background-repeat: no-repeat;
+    background-position:4rem 6rem ;
+    width: 253px;
+    height: 253px;
+}
+.clear-channel{
+    background-image: url(../img/clear_channel.svg);
+    background-color:yellow;
+    background-size:7rem;
+    background-repeat: no-repeat;
+    background-position:4rem 6rem ;
+    width: 253px;
+    height: 253px;
 
+}
+.editor{
+    padding-top: 2rem;
+}
+.lorem{
+    padding-top: 2rem;
+}
 .big-logo{
     width: 250px;
     margin-top: 3rem;
 }
 .sixth-container{
     display: flex;
-    justify-content: space-between;
     background-color: rgb(140, 223, 223);
-    padding:3rem 10rem;
+    padding:3rem 32rem;
 }
 .prova-gratuita{
     padding: 0.5rem;
     margin: 1rem 0;
     background-color: white;
-    border: ;
 }
