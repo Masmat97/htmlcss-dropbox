@@ -4,6 +4,9 @@
     padding: 0;
     font-family: sans-serif
 }
+hr{
+    padding: 0;
+}
 header{
     display: flex;
     position: fixed;
@@ -49,6 +52,9 @@ h1{
 .second-container_left{
     width: 450px;
 }
+.fa-arrow-down{
+    size: 2rem;
+}
 .img{
    height:350px;
 }
@@ -66,6 +72,7 @@ h1{
 }
 h2{
     padding-bottom: 2rem;
+    padding-top: 5rem;
 }
 .three-column{
     display: flex;
@@ -187,14 +194,11 @@ h3,h4{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 506px;
-    height: 506px;
+    width: 30%;
     margin-top: 2rem;
-    
-  
 }
 .one-square{
-   width: 506px;
+   width: 40%;
    background-color: antiquewhite;
    padding: 0 2rem;
    margin-top: 2rem;
@@ -204,76 +208,86 @@ h3,h4{
     background-color: greenyellow;
     background-size: 8rem;
     background-repeat: no-repeat;
-    background-position:4rem 6rem ;
-    width: 253px;
-    height: 253px;
+    background-position:50% ;
+    width: 50%;
+    
+    
 }
 .arizona-logo{
     background-image: url(../img/arizona_state_university.svg);
     background-size:7rem;
     background-repeat: no-repeat;
-    background-position:4rem 5rem ;
+    background-position:50% ;
     background-color: rgb(95, 16, 32);
-    width: 253px;
-    height: 253px;
+    width: 50%;
+    
+    
 }
 .florida-logo{
     background-image: url(../img/university_of_florida.svg);
     background-color: blue;
     background-size:8rem;
     background-repeat: no-repeat;
-    background-position:4rem 7rem ;
-    width: 253px;
-    height: 253px;
+    background-position:50%;
+    width: 50%;
+    
+    
 }
 .topps-logo{
     background-image: url(../img/topps.svg);
     background-color:red;
     background-size:7rem;
     background-repeat: no-repeat;
-    background-position:4rem 5rem ;
-    width: 253px;
-    height: 253px;
+    background-position:50% ;
+    width: 50%;
+    
+    
 }
 .world-bicycle{
     background-image: url(../img/world_bicycle_relief.svg);
     background-color:red;
     background-size:7rem;
     background-repeat: no-repeat;
-    background-position:4rem 5rem ;
-    width: 253px;
-    height: 253px;
+    background-position:50%;
+    width: 50%;
+   
+    
 }
 .hearst{
     background-image: url(../img/hearst_corp.svg);
     background-color:aqua;
     background-size:7rem;
     background-repeat: no-repeat;
-    background-position:4rem 6rem ;
-    width: 253px;
-    height: 253px;
+    background-position:50% ;
+    width: 50%;
+    
+    
 }
 .lonely-planet{
     background-image: url(../img/lonely_planet.svg);
     background-color:blue;
     background-size:7rem;
     background-repeat: no-repeat;
-    background-position:4rem 6rem ;
-    width: 253px;
-    height: 253px;
+    background-position:50% ;
+    width: 50%;
+    
+    
 }
 .clear-channel{
     background-image: url(../img/clear_channel.svg);
     background-color:yellow;
     background-size:7rem;
     background-repeat: no-repeat;
-    background-position:4rem 6rem ;
-    width: 253px;
-    height: 253px;
+    background-position:50%;
+    width: 50%;
+    
+    
 
 }
 .editor{
     padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-style:italic ;
 }
 .lorem{
     padding-top: 2rem;
@@ -284,11 +298,32 @@ h3,h4{
 }
 .sixth-container{
     display: flex;
+    justify-content: space-evenly;
+    width: 100%;
     background-color: rgb(140, 223, 223);
-    padding:3rem 32rem;
+    
+}
+.end-six{
+    width: 25%;
+    padding-top: 3rem;
 }
 .prova-gratuita{
     padding: 0.5rem;
-    margin: 1rem 0;
+    margin: 3rem 0;
     background-color: white;
+}
+.contenitor-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    line-height: 2rem;
+    padding: 2rem 8rem;
+    color: white;
+    background-color: black;
+}
+.title{
+    font-size:1.5rem;
+}
+li{
+    list-style: none;
 }
