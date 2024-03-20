@@ -335,9 +335,11 @@ li{
     margin: auto;
 }
 .risposta{
+    display: none;
 }
-.parent:hover .child{
-    visibility: ;
+
+.parent:hover .risposta{
+    display: block;
 }
     
     
