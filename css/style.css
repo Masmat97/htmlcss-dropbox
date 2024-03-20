@@ -327,3 +327,9 @@ h3,h4{
 li{
     list-style: none;
 }
+.seventh-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
