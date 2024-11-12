@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,261 +6,313 @@
 }
 
 
-header{
+header {
     display: flex;
     position: fixed;
     left: 0;
     right: 0;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color:white;  
+    background-color: white;
 }
-a{
+
+a {
     text-decoration: none;
     padding-right: 1rem;
     color: black;
 }
-.accedi{
-    background-color:rgb(0, 97, 255);
+
+.accedi {
+    background-color: rgb(0, 97, 255);
     padding: 0.2rem;
     color: white;
 }
-.intestazione:hover .wild{
+
+:hover .wild {
     text-decoration: underline;
 }
-.fa-arrow-down{
+
+.fa-arrow-down {
     font-size: 2rem;
     padding-left: 4rem;
     padding-top: 1rem;
 }
-.first-container{
+
+.first-container {
     background-color: rgb(180, 208, 231);
     padding-top: 2rem;
     height: 560px;
 }
-h1{
+
+h1 {
     text-align: center;
     padding-top: 3rem;
     font-size: 50px;
     width: 800px;
     margin: auto;
 }
-.second-container{
+
+.second-container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 900px;
     margin: auto;
     padding-top: 2rem;
     line-height: 20px;
 }
-.second-container_left{
+
+.second-container_left {
     width: 450px;
 }
-.fa-arrow-down{
+
+.fa-arrow-down {
     size: 2rem;
 }
-.img{
-   height:24rem;
+
+.img {
+    height: 24rem;
 }
-.inizia{
-    background-color:rgb(0, 97, 255);
+
+.inizia {
+    background-color: rgb(0, 97, 255);
     padding: 0.2rem;
     color: white;
     margin: 2rem 0;
 }
-.third-container{
+
+.third-container {
     width: 800px;
     margin: auto;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
-h2{
+
+h2 {
     padding-bottom: 2rem;
     padding-top: 5rem;
 }
-.three-column{
+
+.three-column {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 800px;
     padding-top: 2rem;
 }
-.group{
+
+.group {
     padding-left: 4rem;
 }
-.column{
+
+.column {
     width: 250px;
-    outline: auto;
-    padding-left:1rem ;
+    padding-left: 1rem;
     line-height: 30px;
 }
-.column1{
+
+.column1 {
     width: 250px;
-    outline: auto;
-    padding-left:1rem ;
+    padding-left: 1rem;
     line-height: 30px;
     padding-bottom: 11rem;
 }
-.column2{
+
+.column2 {
     width: 250px;
-    outline: auto;
-    padding-left:1rem ;
+    padding-left: 1rem;
     line-height: 30px;
     padding-bottom: 9rem;
 }
-.prova{
-    background-color:rgb(0, 97, 255);
+
+.prova {
+    background-color: rgb(0, 97, 255);
     padding: 0.5rem;
     color: white;
     margin: 2rem 1rem;
     width: 80%;
 }
-.money{
-    font-weight:bold ;
+
+.money {
+    font-weight: bold;
 }
-.mese{
+
+.mese {
     padding-bottom: 1rem;
     color: rgb(168, 164, 164);
 }
-.small-hr{
+
+.small-hr {
     margin-right: 12rem;
 }
-.fa-check{
-    color:rgb(0, 97, 255);
+
+.fa-check {
+    color: rgb(0, 97, 255);
 }
-.acquista{
+
+.acquista {
     color: blue;
-    text-decoration: underline;  
+    text-decoration: underline;
 }
-h3,h4{
+
+h3 {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
-.row-contenitor{
+
+h4 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.row-contenitor {
     width: 800px;
     padding-top: 2rem;
     margin: auto;
-    outline: auto;
     line-height: 30px;
 }
-.team{
+
+.team {
     text-align: center;
-    margin:0 5rem;
+    margin: 0 5rem;
 }
-.enterprise{
+
+.enterprise {
     display: flex;
     justify-content: space-between;
-    outline:auto;
-    padding: 1rem 1rem; 
+
+    padding: 1rem 1rem;
 }
-.contatta{
+
+.contatta {
     display: flex;
-    background-color:rgb(0, 97, 255);
+    background-color: rgb(0, 97, 255);
     padding: 0.5rem;
     color: white;
     margin: 1rem 0;
     justify-content: flex-end;
     margin-right: 2rem;
 }
-.fourth-container{
+
+.fourth-container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 800px;
     padding-top: 2rem;
     margin: 3rem auto;
 }
-.partner-img{
-    width:100%;
+
+.partner-img {
+    width: 100%;
     padding-right: 2rem;
     margin-bottom: 4rem;
 }
-.partner{
+
+.partner {
     width: 60%;
 }
-.search-partner{
+
+.search-partner {
     padding: 0.5rem;
     margin: 1rem 0;
     background-color: white;
 }
-.fifth-container{
+
+.fifth-container {
     display: flex;
     justify-content: space-between;
     width: 800px;
     flex-wrap: wrap;
     margin: auto;
 }
-.operation-box{
+
+.operation-box {
     display: flex;
     width: 250px;
     flex-direction: column;
 }
-.busi-h2{
+
+.busi-h2 {
     padding-left: 15rem;
     font-size: 2rem;
 }
-.text-box{
+
+.text-box {
     margin-bottom: 2rem;
 }
-.business{
+
+.business {
     margin-left: 12rem;
     width: 400px;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-.contatti{
+
+.contatti {
     margin-left: 12rem;
     text-decoration: underline;
     color: rgb(24, 24, 221);
 }
-.squares{
+
+.squares {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.four-squares{
+
+.four-squares {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 30%;
     margin-top: 2rem;
 }
-.one-square{
-   width: 40%;
-   background-color: antiquewhite;
-   padding: 0 2rem;
-   margin-top: 2rem;
+
+.one-square {
+    width: 40%;
+    background-color: antiquewhite;
+    padding: 0 2rem;
+    margin-top: 2rem;
 }
-.designit-logo{
+
+.designit-logo {
     background-image: url(../img/designit.svg);
     background-color: greenyellow;
 }
-.arizona-logo{
+
+.arizona-logo {
     background-image: url(../img/arizona_state_university.svg);
     background-color: rgb(95, 16, 32);
 }
-.florida-logo{
+
+.florida-logo {
     background-image: url(../img/university_of_florida.svg);
     background-color: blue;
 }
-.topps-logo{
+
+.topps-logo {
     background-image: url(../img/topps.svg);
-    background-color:red;
+    background-color: red;
 }
-.world-bicycle{
+
+.world-bicycle {
     background-image: url(../img/world_bicycle_relief.svg);
-    background-color:red;
+    background-color: red;
 }
-.hearst{
+
+.hearst {
     background-image: url(../img/hearst_corp.svg);
-    background-color:aqua;
+    background-color: aqua;
 }
-.lonely-planet{
+
+.lonely-planet {
     background-image: url(../img/lonely_planet.svg);
-    background-color:blue;
+    background-color: blue;
 }
-.clear-channel{
+
+.clear-channel {
     background-image: url(../img/clear_channel.svg);
-    background-color:yellow;
+    background-color: yellow;
 }
+
 .designit-logo,
 .arizona-logo,
 .florida-logo,
@@ -268,68 +320,85 @@ h3,h4{
 .world-bicycle,
 .hearst,
 .lonely-planet,
-.clear-channel{
-    background-size:7rem;
+.clear-channel {
+    background-size: 7rem;
     background-repeat: no-repeat;
-    background-position:50%;
+    background-position: 50%;
     width: 50%;
     filter: invert(1);
 }
-.editor{
+
+.editor {
     padding-top: 2rem;
     padding-bottom: 3rem;
-    font-style:italic ;
+    font-style: italic;
 }
-.lorem{
+
+.lorem {
     padding-top: 2rem;
 }
-.big-logo{
+
+.big-logo {
     width: 250px;
     margin-top: 3rem;
 }
-.sixth-container{
+
+.sixth-container {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    background-color: rgb(140, 223, 223);  
+    background-color: rgb(140, 223, 223);
 }
-.end-six{
+
+.end-six {
     width: 25%;
     padding-top: 3rem;
 }
-.prova-gratuita{
+
+.prova-gratuita {
     padding: 0.5rem;
     margin: 3rem 0;
     background-color: white;
 }
-.seventh-container{
+
+.seventh-container {
     display: flex;
     flex-direction: column;
     width: 59%;
     margin: auto;
 }
-.parent{
+
+.parent {
     display: flex;
     flex-wrap: wrap;
 }
-.risposta{
+
+.risposta {
     display: none;
     padding-bottom: 1rem;
 }
-.parent:hover .risposta{
+
+.parent:hover .risposta {
     display: block;
 }
-.parent:hover .fa-chevron-down{
-    rotate: 180deg;  
-}  
-.fa-chevron-down{
+
+.parent:hover .fa-chevron-down {
+    transform: rotate(180deg);
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+
+}
+
+.fa-chevron-down {
     padding-top: 2rem;
     padding-left: 2rem;
 }
-footer{
+
+footer {
     background-color: black;
 }
-.contenitor-footer{
+
+.contenitor-footer {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -338,18 +407,238 @@ footer{
     color: white;
     margin-top: 2rem;
 }
-.title{
-    font-size:1.5rem;
+
+.title {
+    font-size: 1.5rem;
 }
-li{
+
+li {
     list-style: none;
 }
-.italia{
+
+.italia {
     color: white;
     padding: 3rem 7rem;
 }
-.white{
+
+.white {
     margin-right: 90%;
     margin-bottom: 5%;
 }
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Stili generali per schermi più piccoli */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-container {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .second-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-container_left,
+    .second-container-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .third-container {
+        width: 100%;
+    }
+
+    .three-column {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column,
+    .column1,
+    .column2 {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .fourth-container,
+    .fifth-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .operation-box {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .busi-h2,
+    .business,
+    .contatti {
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    .squares {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .four-squares {
+        width: 100%;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
+    .one-square {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .sixth-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .end-six {
+        width: 100%;
+        text-align: center;
+    }
+
+    .seventh-container {
+        width: 90%;
+    }
+
+    .parent {
+        flex-direction: column;
+    }
+
+    .parent:hover .fa-chevron-down {
+        padding-bottom: 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenitor-footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+
+    .contenitor-footer div {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .italia {
+        padding: 1rem;
+    }
+}
+
+/* Stili per schermi molto piccoli */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .first-container {
+        padding: 1rem;
+    }
+
+    .second-container {
+        padding: 0;
+    }
+
+    .second-container_left {
+        padding: 0 1rem;
+    }
+
+    .second-container-right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .money {
+        font-size: 1.5rem;
+    }
+
+    .money,
+    .mese {
+        font-size: 1rem;
+    }
+
+    .team,
+    .enterprise {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .partner {
+        text-align: center;
+    }
+
+    .search-partner {
+        width: 100%;
+    }
+
+    .operation-box img {
+        width: 100%;
+    }
+
+    .big-logo {
+        width: 80%;
+    }
+
+    .editor,
+    .lorem {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .contenitor-footer {
+        padding: 1rem;
+    }
+
+    .contenitor-footer div {
+        margin-bottom: 0.5rem;
+    }
+}
